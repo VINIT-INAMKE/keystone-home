@@ -19,7 +19,7 @@ a,
 .aces {
   font-weight: 500;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ a,
   justify-content: space-between;
   width: 100%;
   padding: 30px 10%;
-  /* background-color: red; */
+  background-color: #fffff0;
   gap: 50px;
   position: fixed;
   z-index: 99;
@@ -73,7 +73,7 @@ a,
 
 #main {
   /* position: relative; */
-  background-color: rgba(0, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.281);
 }
 
 #page-1 {
@@ -93,7 +93,7 @@ a,
   font-weight: 900;
   position: relative;
 }
-#page-1 h1::before {
+/* #page-1 h1::before {
   content: "“Students without Teachers is like a ship lost in the horizon.”";
   position: absolute;
   color: #000;
@@ -101,7 +101,7 @@ a,
   left: -4px;
   -webkit-text-stroke: 1px #8fd7ed;
   z-index: -1;
-}
+} */
 #page-1 h2 {
   font-size: 30px;
   font-weight: 700;
