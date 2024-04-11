@@ -1,4 +1,3 @@
-
 var blur = document.querySelector("#cursor-blur");
 
 document.addEventListener("mousemove", function (dets) {
@@ -7,20 +6,20 @@ document.addEventListener("mousemove", function (dets) {
 });
 
 gsap.to("#nav", {
-  backgroundColor: "#000",
+  backgroundColor: "#FFFFF0",
   duration: 0.5,
   height: "100px",
   scrollTrigger: {
     trigger: "#nav",
     scroller: "body",
     // markers:true,
-    start: "top -10%",
-    end: "top -11%",
+    start: "top -25%",
+    end: "top -70%",
     scrub: 1,
   },
 });
 gsap.to("#main", {
-  backgroundColor: "#000",
+  backgroundColor: "#FFFFF0",
   scrollTrigger: {
     trigger: "#main",
     scroller: "body",
@@ -28,5 +27,17 @@ gsap.to("#main", {
     start: "top -25%",
     end: "top -70%",
     scrub: 2,
+  },
+});
+gsap.to(".navA", {
+  color: "black",
+  duration: 0.5,
+  scrollTrigger: {
+    trigger: ".navA",
+    scroller: "body",
+    // markers:true,
+    start: "top -25%",
+    end: "top -70%",
+    scrub: 1,
   },
 });
